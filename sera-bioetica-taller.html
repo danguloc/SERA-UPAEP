@@ -781,7 +781,7 @@ section { margin-bottom:48px; }
       <span>📢 Narración de sección</span>
       <button class="narration-play-btn" id="play-5">▶ Reproducir</button>
     </div>
-    <p>Has recorrido los cinco bloques del taller. El sistema no te pide que cambies todo lo que haces; te pide que lo alinees. Si ya asignas casos clínicos, puede que solo necesites vincularlos explícitamente al LOP 6 y usar la rúbrica correcta en Blackboard. Si evalúas solo con exámenes de opción múltiple, tendrás que incorporar al menos una evidencia integradora que permita medir el ELO 10 y el LOP 6. Si compartes los criterios solo al calificar, el ajuste es tan simple como entregarlos el primer día de clase.</p>
+    <p>Has recorrido los cinco bloques del taller. El sistema no te pide que cambies todo lo que haces; te pide que lo alinees. Si ya asignas casos clínicos, puede que solo necesites vincularlos explícitamente al LOP 6. Si evalúas solo con exámenes de opción múltiple, tendrás que incorporar al menos una evidencia integradora que permita medir el ELO 10 y el LOP 6. Si compartes los criterios solo al calificar, el ajuste es tan simple como entregarlos el primer día de clase.</p>
     <p>Tu asignatura ocupa una posición estratégica en el currículum de Medicina: el LOP 6 no puede desarrollarse sin ella. Eso le da un argumento de peso en cualquier proceso de acreditación. Lo que registres en las rúbricas de Assessment alimenta el Plan de Mejora Continua del programa y respalda los reportes ante COMAEM y WFME. Escribe ahora una acción concreta para tu próxima evaluación.</p>
   </div>
 
@@ -792,13 +792,13 @@ section { margin-bottom:48px; }
   <div class="action-box">
     <h3>📝 Mi plan de acción para el próximo cuatrimestre</h3>
     <p style="font-size:14px;color:var(--text-muted);margin:0 0 12px;">Describe una acción concreta: qué modificarás, en qué tarea, y cómo conecta con el LOP 6 u otro LOP vinculado a tu asignatura.</p>
-    <textarea class="action-textarea" id="action-text" placeholder="Ejemplo: En mi evaluación final de Bioética, sustituiré el examen de opción múltiple por un informe de resolución de caso clínico. Usaré la rúbrica de Assessment del ELO 10 vinculada al LOP 6 en Blackboard y la compartiré desde la primera sesión. El caso elegido involucrará tensión entre autonomía y beneficencia en un paciente oncológico pediátrico."></textarea>
+    <textarea class="action-textarea" id="action-text" placeholder="Ejemplo: En mi evaluación final de Bioética, sustituiré el examen de opción múltiple por un informe de resolución de caso clínico. Usaré elementos de la rúbrica de Assessment del ELO 10 vinculada al LOP 6 y la compartiré desde la primera sesión. El caso elegido involucrará tensión entre autonomía y beneficencia en un paciente oncológico pediátrico."></textarea>
     <button class="action-save-btn" id="action-save-btn">Guardar e imprimir</button>
     <div class="action-saved-msg" id="action-saved-msg">✓ Tu plan ha sido guardado. Puedes imprimirlo con Ctrl+P (⌘+P en Mac).</div>
   </div>
 
   <div class="info-box ok">
-    <strong>¿Qué sigue?</strong> Localiza en Blackboard las rúbricas de Assessment del ELO 10 y del LOP 6 asociadas a tu materia. Si no las encuentras, contacta a la Coordinación de Calidad Académica del Decanato. El registro correcto en el sistema es el paso que convierte este taller en impacto medible.
+    <strong>¿Qué sigue?</strong> Solicita las rúbricas de Assessment del ELO 10 y del LOP 6 asociadas a tu materia. Si no las encuentras, contacta a la Coordinación de Calidad Académica del Decanato.
   </div>
 </section>
 
@@ -915,9 +915,9 @@ function initVoice() {
 var narrationTexts = {
   1: "Todo sistema de evaluación parte de una pregunta que parece sencilla: ¿qué es lo que el estudiante debe ser capaz de demostrar cuando termina su proceso de formación? Un Learning Outcome no es un tema de clase ni un objetivo de enseñanza. Es un enunciado verificable que describe un desempeño del estudiante. Cuando formulamos un objetivo de enseñanza, el sujeto gramatical es el docente. Cuando formulamos un Learning Outcome, el sujeto es el alumno, y el verbo es medible. Para Bioética, esta distinción es especialmente importante porque la asignatura trabaja con juicio moral y razonamiento frente a la ambigüedad.",
   2: "El SERA organiza los resultados de aprendizaje en cuatro niveles jerárquicos. Los ELOs son dieciséis competencias transversales; para Bioética el más vinculado es el ELO 10 de Razonamiento Ético. La Licenciatura en Medicina tiene siete LOPs. El que tu asignatura sostiene de forma primaria es el LOP 6: Ética y Profesionalismo, que exige que el médico seleccione acciones que respetan los principios humanistas, éticos, bioéticos, legales y de profesionalismo médico. Este LOP no puede desarrollarse sin Bioética. También existen vínculos secundarios con el LOP 2 de Planes de Manejo y el LOP 7 de Manejo de la Información.",
-  3: "En el SERA, la evaluación tiene dos usos. El primero es la calificación del estudiante. El segundo es el Assessment institucional. El Assessment se realiza en tres momentos: medición inicial, que establece la línea base; medición intermedia, que verifica el avance; y medición final, que confirma el perfil de egreso. En Blackboard encontrarás rúbricas de calificación, que generan nota visible, y rúbricas de medición, que alimentan los datos institucionales. Ambas deben compartirse con los alumnos desde el primer día.",
+  3: "En el SERA, la evaluación tiene dos usos. El primero es la calificación del estudiante. El segundo es el Assessment institucional. El Assessment se realiza en tres momentos: medición inicial, que establece la línea base; medición intermedia, que verifica el avance; y medición final, que confirma el perfil de egreso. En CANVAS coexisten  rúbricas de calificación, que generan nota visible, y rúbricas de medición, que alimentan los datos institucionales. Ambas deben compartirse con los alumnos desde el primer día de las materias que tenagn asignadas mediciones.",
   4: "Llegamos al punto donde el SERA se vuelve concreto para Bioética. Una evidencia integradora no evalúa conocimiento declarativo aislado, sino la capacidad del alumno de aplicar conocimiento en un escenario complejo. El instrumento recomendado para medir el ELO 10 y el LOP 6 es el informe de resolución de caso clínico con dilema ético. Sus criterios deben alinearse con ambos: identificar el dilema, analizar las posiciones en tensión, aplicar marcos éticos con coherencia, y proponer una solución justificada.",
-  5: "Has recorrido los cinco bloques del taller. El sistema no te pide que cambies todo; te pide que lo alinees. Si ya asignas casos clínicos, puede que solo necesites vincularlos explícitamente al LOP 6 y usar la rúbrica correcta en Blackboard. Tu asignatura ocupa una posición estratégica: el LOP 6 no puede desarrollarse sin ella. Escribe ahora una acción concreta para tu próxima evaluación de Bioética."
+  5: "Has recorrido los cinco bloques del taller. El sistema no te pide que cambies todo; te pide que lo alinees. Si ya asignas casos clínicos, puede que solo necesites vincularlos explícitamente al LOP 6. Tu asignatura ocupa una posición estratégica: el LOP 6 no puede desarrollarse sin ella. Escribe ahora una acción concreta para tu próxima evaluación de Bioética."
 };
 
 function getSectionInView() {
